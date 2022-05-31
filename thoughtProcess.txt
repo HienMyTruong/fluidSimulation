@@ -1,0 +1,23 @@
+Beginning with two main concepts
+
+incompressible fluids = fluids that must remain constant density throughout (water for example)
+compressible fluids = density can change, ex. air
+Navier-Stokes equations 
+
+Incompressible: 
+A. Vector Field(x, y z?):
+    - in a grid of pixles, there is a velocity vector in each grid that points to a direction
+    - the velocity field/ vector field either two or three dimensional 
+
+
+    | -> | -> 
+
+B. Dye (amount ): 
+    - defuse all around the fluid
+    - density of the dye can be a vector field 
+
+
+1. a grid of (x, y, density), two of the same time where the other one is the "previous" array
+2. linear solve with gauss- seidel 
+
+
